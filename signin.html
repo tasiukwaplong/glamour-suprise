@@ -30,12 +30,46 @@
     </style>
   <link href="css/signin.css" rel="stylesheet">
   </head>
-<body class="text-center">
+
+
+<body >
+  <!-- nav -->
+   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+      <div class="text-end">
+        <a href="signin.html">
+          <button type="button" class="btn btn-outline-dark me-2">Login</button></a>
+          <a href="signup.html">
+          <button type="button" class="btn btn-primary">Sign-up</button></a>
+        </div>
+    </div>
+  </div>
+
+  </div>
+</nav>
 <!-- sign in -->
-   <main class="form-signin">
+   <main class="form-signin ">
   <form>
-    <img class="mb-4" src="#" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    <img class="mb-4 text-center" src="#" alt="" width="72" height="57">
+    <h4 class="h3 mb-3 fw-normal">Please sign in</h4>
 
     <div class="form-floating">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
